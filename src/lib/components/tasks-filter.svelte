@@ -2,7 +2,6 @@
 	import { Button } from './ui/button';
 
 	let { toggleFilter, currentFilter } = $props();
-	console.log('currentFilter=>', currentFilter);
 </script>
 
 <div class="mt-4 flex justify-center gap-2">

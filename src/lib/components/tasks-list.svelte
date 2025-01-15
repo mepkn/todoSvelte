@@ -21,7 +21,7 @@
 			<Card.Content>
 				<div class="space-y-2">
 					{#each tasks as task}
-						<div class="flex items-center justify-between" transition:fade>
+						<div class="flex items-center justify-between gap-2" transition:fade>
 							<div class="flex items-start gap-2">
 								<Checkbox
 									id={task.id}
